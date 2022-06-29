@@ -6,7 +6,7 @@
 
 body {
     font-family: sans-serif;
-    background-color: #FFA500;
+    background-color: #ffa600;
     color: #fff;
     height: 100vh;
     width: 100wh;
@@ -18,9 +18,32 @@ body {
 .container {
     text-align: center;
     padding: 30px;
-    border: 2px solid black;
 }
 
-.heading h1, .timer, .btn {
+h1 {
+    margin: 50px;
+}
+
+.timer, .btn {
     margin: 20px;
+}
+
+.timer {
+    font-size: x-large;
+}
+
+.btn button {
+    margin: 2% 5%;
+    border: 2px solid #fff;
+    color: #fff;
+    background-color: #ffa600;
+    width: 120px;
+    height: 40px;
+    border-radius: 5%;
+    font-size: large;
+}
+
+.btn button:hover {
+    background-color: #fff;
+    color: #ffa600;
 }
